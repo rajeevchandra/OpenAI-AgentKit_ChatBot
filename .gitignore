@@ -1,0 +1,30 @@
+# Python
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# Node / Next.js
+node_modules/
+.next/
+dist/
+build/
+
+# Backend build output
+lib/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+*.env
+.env.local
+.env.production
+.env.development
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
