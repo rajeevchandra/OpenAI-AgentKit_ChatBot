@@ -16,16 +16,17 @@ You can later swap the model (e.g., `llama3.1`, `qwen2.5`, etc.) or add cloud fa
 
 ---
 
-🧩 System Architecture
+🔧 Key Features
 
-[ ChatKit UI (Next.js) ]
-         │
-         ▼
-[ FastAPI Backend (/api/chat) ]
-         │
-         ▼
-[ Model Endpoint (OpenAI-Compatible API) ]
+🔹 ChatKit UI: Prebuilt chat interface for modern apps
+
+🔹 FastAPI Backend: Lightweight, async, and easy to extend
+
+🔹 OpenAI-Compatible Schema: Works with any compliant model
+
+🔹 Configurable Environment: Switch endpoints via .env
+
+🔹 Modular Extensions: Memory, streaming, and tool calls
 
 
-## 📁 Project Structure
 
