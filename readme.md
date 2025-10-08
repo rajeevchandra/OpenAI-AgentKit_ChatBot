@@ -16,5 +16,16 @@ You can later swap the model (e.g., `llama3.1`, `qwen2.5`, etc.) or add cloud fa
 
 ---
 
+🧩 System Architecture
+
+[ ChatKit UI (Next.js) ]
+         │
+         ▼
+[ FastAPI Backend (/api/chat) ]
+         │
+         ▼
+[ Model Endpoint (OpenAI-Compatible API) ]
+
+
 ## 📁 Project Structure
 
